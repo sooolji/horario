@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Horario</class>
+ <widget class="QMainWindow" name="Horario">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>773</width>
+    <height>262</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Horario</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>0</y>
+      <width>721</width>
+      <height>211</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>773</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <addaction name="abrir"/>
+    <addaction name="guardar"/>
+    <addaction name="nuevo_horario"/>
+    <addaction name="horas"/>
+    <addaction name="frecuencia"/>
+   </widget>
+   <addaction name="menuMenu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="abrir">
+   <property name="text">
+    <string>Abrir</string>
+   </property>
+  </action>
+  <action name="guardar">
+   <property name="text">
+    <string>Guardar</string>
+   </property>
+  </action>
+  <action name="nuevo_horario">
+   <property name="text">
+    <string>Nuevo Horario</string>
+   </property>
+  </action>
+  <action name="horas">
+   <property name="text">
+    <string>Consultar Horas</string>
+   </property>
+  </action>
+  <action name="frecuencia">
+   <property name="text">
+    <string>Consultar Frecuencia</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
